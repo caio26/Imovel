@@ -2,11 +2,11 @@
 import pickle
 import streamlit as st
 import numpy as np
-import joblib
+
  
 # Carregando a Máquina Preditiva
 pickle_in = open('lr.pickle','rb') 
-maquina_preditiva = joblib.load(pickle_in)
+maquina_preditiva = pickle.load(pickle_in)
 pickle_in = open('X.pickle', 'rb') 
 X = pickle.load(pickle_in)
 
