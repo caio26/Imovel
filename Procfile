@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run site.py
+web: sh setup.sh && streamlit run imoveis_app.py
