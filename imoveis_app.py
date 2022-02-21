@@ -45,7 +45,7 @@ def main():
     # As linhas abaixo criam as caixas na qual o usuário vai entrar com dados da pessoa que quer o empréstimo para fazer a Predição
     
     location = st.selectbox("Localização",(X.columns[3:]))
-    sqft = int(st.number_input("Metros quadrados"))
+    sqft = int(st.slider("Metros quadrados",min_value=40,max_value=5000,step=25,value=2440))
     bath = int(st.slider("Banheiros",min_value=1,max_value=30,step=1,value=15)) 
     br = int(st.slider('Quartos',min_value=1,max_value=30,step=1,value=15))
     result =""
