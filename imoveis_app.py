@@ -34,7 +34,7 @@ def main():
     # Elementos da webpage
     html_temp = """ 
     <div style ="background-color:blue;padding:13px">
-    <h1 style ="color:white;text-align:center;">SAE</h1> 
+    <h1 style ="color:white;text-align:center;">SPI</h1> 
     <h2 style ="color:white;text-align:center;">Sistema de previsão imobiliário-PROJETO EM DESENVOLVIMENTO DE SISTEMAS </h2> 
     </div> 
     """
